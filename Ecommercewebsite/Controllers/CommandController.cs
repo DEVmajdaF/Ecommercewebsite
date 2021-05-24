@@ -21,19 +21,7 @@ namespace Ecommercewebsite.Controllers
             _context = context;
             _userManager = userManager;
         }
-        ////GET: api/<CommandController>
-        //[HttpGet]
-        //public async Task<IActionResult> Get(string PanierId)
-        //{
-        //    var user = await _userManager.FindByEmailAsync(login.Email);
-        //    if (PanierId == string.Empty)
-        //        throw new ArgumentNullException(nameof(PanierId));
-        //    var commandexist = _context.Panier.Where(a => a.commandStatus == true && a.Id == PanierId);
-
-
-        //    return Ok(commandexist);
-
-        //}
+       
 
 
 

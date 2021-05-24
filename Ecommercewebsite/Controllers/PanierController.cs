@@ -166,20 +166,20 @@ namespace Ecommercewebsite.Controllers
         }
 
 
-        public double totalPrice(int id)
-        {
-
-          
-
-           var total = _context.PanierDetails.Where(a => a.panierId == id).Sum(q=>q.Quantity * q.product.Price);
-
-            return (total);
+        //public double totalPrice(int id)
+        //{
 
 
-        }
+
+        //    var total = _context.PanierDetails.Where(a => a.panierId == id).Sum(q => q.Quantity * q.product.Price);
+
+        //    return (total);
 
 
-       
+        //}
+
+
+
 
     }
 }
