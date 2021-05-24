@@ -37,6 +37,7 @@ namespace Ecommercewebsite.Controllers
 
             if (panier == null)
             {
+                ///
                 NoContent();
             }
             else
